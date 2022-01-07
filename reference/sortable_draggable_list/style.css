@@ -1,0 +1,18 @@
+.container{
+    padding: 2rem;
+    background-color: black;
+    margin: 1px;
+}
+.sub-container{
+    padding: 1rem;
+    background-color: blue;
+    margin: 1rem;
+}
+.element{
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem;
+}
+.dragging{
+    opacity: 0.5;
+}

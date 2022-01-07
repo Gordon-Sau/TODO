@@ -1,0 +1,34 @@
+a.void{
+    color: black;
+}
+.group{
+    width: 150px;
+    height: 80vh;
+    display: inline-table;
+}
+.task{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.subgroup-header{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: green;
+}
+.group-header{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.group-children-container{
+    height: 100%;
+    overflow-y: scroll;
+}
+.group-children-container::-webkit-scrollbar{
+    display: none;
+}
+.dragging{
+    opacity: 0.5;
+}
+#container{
+    padding-left: 20px;
+}

@@ -1,0 +1,11 @@
+{
+    "name": "// TODO",
+    "description": "a simple todo list extension",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {},
+    "permissions": ["storage", "contextMenus", "tabs"]
+}
